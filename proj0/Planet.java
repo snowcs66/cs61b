@@ -80,7 +80,8 @@ public class Planet {
     }
 
     public void draw() {
-        StdDraw.picture(xxPos, yyPos, imgFileName);
+        String imgToDraw = "images/" + imgFileName;
+        StdDraw.picture(xxPos, yyPos, imgToDraw);
     }
 }
 
